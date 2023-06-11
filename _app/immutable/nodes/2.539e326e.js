@@ -1,0 +1,3 @@
+import{S as v,i as b,s as g,q as m,k as $,r as p,l as q,m as x,h as c,b as _,D as h,u as f,H as d,M as E}from"../chunks/index.0bd6f15b.js";import{p as H}from"../chunks/stores.184ed52d.js";function S(o){let r,t,a=o[0].status+"",n,u,l=o[0].error.message+"",i;return{c(){r=m(`huh\r
+`),t=$("h1"),n=m(a),u=m(": "),i=m(l)},l(e){r=p(e,`huh\r
+`),t=q(e,"H1",{});var s=x(t);n=p(s,a),u=p(s,": "),i=p(s,l),s.forEach(c)},m(e,s){_(e,r,s),_(e,t,s),h(t,n),h(t,u),h(t,i)},p(e,[s]){s&1&&a!==(a=e[0].status+"")&&f(n,a),s&1&&l!==(l=e[0].error.message+"")&&f(i,l)},i:d,o:d,d(e){e&&c(r),e&&c(t)}}}function k(o,r,t){let a;return E(o,H,n=>t(0,a=n)),[a]}class D extends v{constructor(r){super(),b(this,r,k,S,g,{})}}export{D as component};
